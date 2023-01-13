@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    /* width: 80%;
+    margin: 0 auto */
+    width: 870px;
+    border-radius: 5px;
+    padding: 0px 30px;
+}
+
+/* top players style */
+.top-title{
+    color: #562EFF;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-row-gap: 20px; 
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.hr{
+    width: 90%;
+    color: #d1d1d1;
+    margin-top: 30px;
+}
+
+/* Blog style */
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;    
+}
+.blog img{
+    width: 180px;
+    height: 120px;
+}
+
+span{
+    color: #562EFF;
+}
+
+.blogs{
+    display: flex;
+    align-items: center;
+}
+
+.blog{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-title{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.blog-para{
+    margin-top: 0px;
+    color: #9F9F9F;
+}
+
+/*---------------------------
+     Course section 
+ --------------------------*/
+
+.course-section{
+    margin-top: 15px;
+}
